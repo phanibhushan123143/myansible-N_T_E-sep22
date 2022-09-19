@@ -12,6 +12,6 @@
       state: present  
    - name: i want to install apache
      apt:
-      name: apache
+      name: apache2
       state: present
          
