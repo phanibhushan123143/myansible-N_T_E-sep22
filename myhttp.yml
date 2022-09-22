@@ -3,6 +3,5 @@
   tasks:
   - name: i want to install http service
     apt:
-      name: http
+      name: https
       state: present
-      
