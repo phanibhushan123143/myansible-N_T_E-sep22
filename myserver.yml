@@ -1,0 +1,13 @@
+---
+- hosts: all
+  tasks:
+  - name: i want to install ubuntu 
+    apt: 
+      name: ubuntu
+      state: present
+    when: ansible_os_family=="Debian"    
+    service:
+      name: ubuntu
+      state: started
+  when: ansible_os_family=="Debian"  
+  
