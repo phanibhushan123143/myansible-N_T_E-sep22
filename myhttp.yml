@@ -3,5 +3,5 @@
   tasks:
   - name: i want to install http service
     apt:
-      name: centos
+      name: httpd
       state: present
