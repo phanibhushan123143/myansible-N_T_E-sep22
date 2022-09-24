@@ -1,0 +1,17 @@
+---
+- hosts: 172.31.39.216
+  become: yes
+  tasks:
+  - name: i want to install wget
+    apt:
+      name: wget
+      state: present
+    tags: mywget  
+  - name: i want to install tree
+    apt:
+     name: tree
+     state: present   
+     tags: my tree
+     
+
+ 
