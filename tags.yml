@@ -11,7 +11,7 @@
     apt:
      name: tree
      state: present   
-     tags: my tree
-     
+    tags: my tree
+
 
  
