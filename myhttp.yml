@@ -1,7 +1,0 @@
----
-- hosts: all
-  tasks:
-  - name: i want to install http service
-    apt:
-      name: httpd
-      state: present
