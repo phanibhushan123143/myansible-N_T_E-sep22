@@ -1,0 +1,9 @@
+---
+- hosts: 172.31.39.216
+  become: yes
+  tasks:
+  - name: i want to create dynamic files
+    template:
+      src: phani.j2
+      dest: www/var/html/index.html
+      
