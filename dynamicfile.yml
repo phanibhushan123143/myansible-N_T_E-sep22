@@ -4,7 +4,8 @@
   tasks:
   - name: i want to copy dynamic files to node side
     template:
-      src: phani.j2
+      src: myindex.j2
       dest: var/www/html/index.html
+      
 
 
